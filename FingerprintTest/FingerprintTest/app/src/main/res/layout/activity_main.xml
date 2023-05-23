@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fingerprint"
+    tools:context=".MainActivity">
+
+
+
+    <!--ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_fingerprint"
+        android:layout_centerInParent="true"/> -->
+    <!--TextView
+        android:id="@+id/tx_info"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Authentication" /> -->
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Fingerprint"
+        android:backgroundTint="@color/teal_700"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn_fp"
+        /> -->
+    <Button
+        android:id="@+id/btn_fppin"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/buttonstyle"
+        android:padding="12dp"
+        android:text="Fingerprint"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:gravity="center"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
